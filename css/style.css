@@ -1,0 +1,247 @@
+/* css reset */
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* css variables */
+:root{
+    --navbar-height: 50px;
+}
+
+
+/* navbar styling */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative; 
+    border-style: solid;
+    border-color: #dcdce4;
+    border-width: thin;
+}
+
+
+/* navbar logo ang image */
+#logo{
+    margin: 1rem 1rem;
+    cursor: pointer;
+}
+
+
+/* navigation bar list styling */
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 0.1rem 0.8rem;
+    border-radius: 1rem;
+}
+#navbar ul li a:hover{
+    color: white;
+    background-color: #617baf;
+}
+
+
+/* right navigation styling */
+.right-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-nav ul {
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  #right-nav-item {
+    color: #444bab;
+    line-height: 19px;
+    font-weight: 600;
+    margin: 3px 20px;
+  }
+
+
+/* nav button styling */
+.btn{   
+    font-size: 16px;
+    background: linear-gradient(91.59deg, #444bab 1.85%, #3ca5c2 99.69%);
+    color:white;  
+    margin: 3px 5px;
+    cursor: pointer;
+    padding:2px;
+    border:2px solid #444bab;
+    border-width: thin;
+    border-radius: 0.4rem;
+    padding: 0.3rem;
+}
+
+.btn:hover{   
+        color: black;
+}
+
+
+/* section form styling */
+.form-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 8rem 0rem;
+  }
+
+.form-content{
+    width: 50%;
+}
+
+
+/* section form container styling */
+.container {
+    margin: 0 auto;
+    width: 50%;
+    width: 1399px;
+}
+
+
+#section1-heading{
+    font-weight: 600;
+    font-size: 3rem;
+    color: #444557
+}
+
+.heading{
+    background: -webkit-linear-gradient(#303abb, #3ca5c2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 3px;
+}
+
+
+/* company logo styling */
+.company-logo img{
+    width: 25%;
+}
+
+.manymore a{
+    font-weight: 500;
+    color: #263238;
+    text-decoration: none;
+  }
+
+.btn-stlf{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+/* main login form styling */
+.login-form{
+    border-style: solid;
+    border-color: #dcdce4;
+    border-width: thin;
+    padding: 1rem 3rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0.5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    background-color: white;
+    
+}
+
+
+/* shadow box  */
+.shadow::before {
+    content: "";
+    background: linear-gradient(180deg, #444bab 1.85%, #3ca5c2 99.69%);
+    position: absolute;
+    height: 40%;
+    width: 15%;
+    z-index: -1;
+    inset: 8.375rem 76rem;
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+  }
+
+
+.login-form-heading{
+    margin: 2rem;
+    color: #444557
+}
+
+.login-form-secondline{
+    padding-bottom: 2rem;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 149.8%; 
+    text-align: center;
+    color: #4F516B;   
+}
+
+form input{
+    padding: 0.2rem;
+    font-size: 1rem;
+    border: 1px solid #c4c4c4;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    width: 20rem
+}
+
+form label{
+    color: #737171;
+}
+
+.login-btn{
+    width:20rem;
+}
+
+
+/* checkout styling */
+.check-out {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #B0DEE7 -35.78%, rgba(176, 222, 231, 0) 174.51%);;
+    width: 100%;
+}
+
+.check-out img {
+    width: 3rem;
+    margin-right: 1rem;
+}
+  
+.check-out p {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 149.8%;
+    color: #263238;
+}
+
+/* laerning apth section styling  */
+.learning-paths{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4F516B;
+    font-weight: 600;
+    line-height: 149.8%;
+    margin: 3rem 2rem 1rem;
+}
+
+.learning-path-para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4F516B;
+    text-align: center;
+    line-height: 2.5rem;
+}
