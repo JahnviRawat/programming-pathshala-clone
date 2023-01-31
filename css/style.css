@@ -245,3 +245,154 @@ form label{
     text-align: center;
     line-height: 2.5rem;
 }
+
+/* Learning Programs Styling */
+.programs{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.learning-programs{
+    border-style: solid;
+    border-color: #dcdce4;
+    border-width: thin;
+    width: 17rem;
+    margin-top: 3rem;
+    height:28rem;
+}
+
+/* learning image  */
+.learning-image{
+    width:17rem;
+    height: 14rem;
+    margin-bottom: 1rem;
+    border-radius: 0.4rem;
+}
+
+.l-p-title{
+    position:absolute;
+    top: 70rem;
+    color: yellow;
+    margin-left: 4rem;
+    font-size: 1.2rem;
+}
+
+/* learning content  */
+.program-sub-content{
+    color: #4F516B;
+    font-size: 0.99rem;
+    padding: 0.3rem;
+}
+
+.p-sub-content{
+    font-weight: 400;
+    width: 15rem;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    padding-left: 0.5rem;
+    line-height: 1.8rem;
+
+    color: #616161;
+}
+
+.know-more{
+    position:absolute;
+    color: #444BAB;
+    top:90rem;
+}
+
+
+/* learning outcomes */
+.learning-outcomes{
+    margin:5rem;
+    text-align: center;
+}
+
+.learning-outcomes h2{
+    color: #444BAB;
+    margin-bottom: 2rem;
+}
+
+.l-o-title{
+    color: #444557;
+    padding-bottom: 2rem;
+}
+
+.o-data-values{
+    display: inline-block;
+    margin: 2rem;
+    
+}
+
+.o-data-values h1{
+    background: linear-gradient(
+        180deg,
+        #3e8ebc 0%,
+        #407ab7 57.29%,
+        #444bab 70.31%,
+        rgba(67, 81, 172, 0.912281) 82.81%,
+        rgba(62, 142, 188, 0) 100%,
+        rgba(62, 142, 188, 0) 100%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+}
+
+.o-data-values p{
+    color: #4F5062;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+/* offering section styling  */
+
+.offering-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+.offering-image{
+    width:17rem;
+    height: 14rem;
+    border-radius: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.offering-sub-content h2{
+    color: #4F516B;
+    padding-bottom: 1rem;
+}
+
+
+.offering-sub-content p{
+    font-weight: 400;
+    width: 48rem;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    padding-left: 0.5rem;
+    line-height: 1.8rem;
+
+    color: #616161;
+}
+
+
+.offering-button{
+    
+    background: linear-gradient(180deg, #3e8ebc 0%, #444bab 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    border-image: linear-gradient(to right, #444bab, #3e8ebc) 1;
+    padding: 0.2rem 0.3rem;
+    font-size: 1.1rem;
+    border-radius: 0.2rem;
+    line-height: 93.8%
+}
+
+
